@@ -1,0 +1,43 @@
+body {
+    background-color: #2f769f7a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#quote {
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#tribute-info {
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+#tribute-info p {
+    margin-bottom: 15px;
+}
+
+#tribute-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+#tribute-info a:hover {
+    text-decoration: underline;
+}
